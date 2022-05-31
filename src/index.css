@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-Thin.woff2") format("woff");
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-ThinItalic.woff2") format("woff");
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-ExtraLight.woff2") format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-Light.woff2") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-LightItalic.woff2") format("woff");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-Regular.woff2") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-Italic.woff2") format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-Medium.woff2") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-MediumItalic.woff2") format("woff");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-SemiBold.woff2") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-SemiboldItalic.woff2") format("woff");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-Bold.woff2") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-BoldItalic.woff2") format("woff");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-ExtraBold.woff2") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url("./assets/fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff");
+	font-weight: 800;
+	font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--grau: hsla(240, 0%, 55%, 1);
+		--blau: hsla(198.2, 100%, 44.5%, 1);
+		--gruen: hsla(86, 52%, 60%, 1);
+	}
+
+	::-moz-selection {
+		background: #3d3d3d;
+		color: white;
+	}
+
+	::selection {
+		background: #3d3d3d;
+		color: white;
+	}
+
+	html {
+		font-family: "Baloo Tamma 2", "system-ui", "sans-serif";
+	}
+
+	body {
+		overflow-y: scroll;
+	}
+
+	h1,
+	h2,
+	h4,
+	h5,
+	h6,
+	h7 {
+		font-family: "Roboto Slab", "ui-serif", "Georgia";
+	}
+}
+
+@layer components {
+	.faehigkeit-box {
+		@apply rounded-xl hover:scale-110 shadow-md duration-75 hover:shadow-lg p-8 max-h-fit min-w-max;
+	}
+
+	.taetigkeit-grid {
+		@apply grid grid-cols-timeline text-lg;
+	}
+
+	.taetigkeiten {
+		@apply col-start-3 col-end-4 list-disc font-light text-base ml-6 mt-5 mb-10 leading-7;
+	}
+
+	.fat-ass-heading {
+		@apply font-martel text-6xl lg:text-5xl pt-12 pb-8 font-black  col-start-3;
+	}
+
+	.zeitraum {
+		@apply col-start-1 col-end-2 font-bold text-right block pt-5 text-sm;
+	}
+
+	.fertigkeit {
+		@apply w-full sm:flex-1 sm:min-w-max border-slate-600 bg-[#1E293B] border border-solid rounded-lg font-code hover:scale-[1.03] transition-all duration-200 ease-in hover:shadow-xl;
+	}
+
+	.referenz-wrapper {
+		@apply gap-4 grid xs:grid-cols-referenz xs:grid-rows-referenz lg:!grid-cols-bigReferenz lg:gap-1;
+	}
+
+	.referenz-logo {
+		@apply bg-white p-8 xs:p-0 dark:xs:py-8 rounded-lg 
+		flex justify-center xs:self-start
+		col-start-1 col-span-1 row-start-1 xs:row-span-2;
+	}
+
+	.referenz-heading {
+		@apply px-4
+		text-xl font-serif font-black leading-tight 
+		col-start-1 col-span-1 xs:col-start-2 row-start-2 xs:row-start-1;
+	}
+	.referenz-text {
+		@apply px-4 lg:pt-3
+		col-start-1 xs:col-start-2 col-span-1 row-start-3 xs:row-start-2;
+	}
+}
