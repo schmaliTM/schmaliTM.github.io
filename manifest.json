@@ -1,0 +1,49 @@
+{
+  "index.html": {
+    "file": "assets/index.6705e597.js",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index.12586813.css"
+    ],
+    "assets": [
+      "assets/firefox.4b458416.svg",
+      "assets/vscode.74ad401c.svg",
+      "assets/git.c1854866.svg",
+      "assets/vite.17e50649.svg",
+      "assets/vue.606c4449.svg",
+      "assets/tailwind.7c29d970.svg",
+      "assets/font-awesome.065bfa30.svg",
+      "assets/wiese.99223f2e.svg",
+      "assets/pakebusch.616ccd19.svg",
+      "assets/timo-und-tanja.04f90f19.svg",
+      "assets/bhan.33618bf0.svg",
+      "assets/highclimbers.8ce29016.svg",
+      "assets/hoenig.37a7b4ce.svg",
+      "assets/artofbeauty.ab56bc61.svg",
+      "assets/friseur-huebner.9d5728bb.svg",
+      "assets/notka.af8ef728.svg",
+      "assets/pro-sh.51f45901.svg",
+      "assets/pvclean.fd4efbd6.svg",
+      "assets/newrickscafe.92e9ade4.svg",
+      "assets/alsterwacht.848a2114.svg",
+      "assets/JetBrainsMono-Thin.cc65c4bc.woff2",
+      "assets/JetBrainsMono-ThinItalic.4dbe2550.woff2",
+      "assets/JetBrainsMono-ExtraLight.a74bfbb7.woff2",
+      "assets/JetBrainsMono-ExtraLightItalic.c53db56a.woff2",
+      "assets/JetBrainsMono-Light.5491f10c.woff2",
+      "assets/JetBrainsMono-LightItalic.46fcf458.woff2",
+      "assets/JetBrainsMono-Regular.bceff071.woff2",
+      "assets/JetBrainsMono-Italic.9aef9fe9.woff2",
+      "assets/JetBrainsMono-Medium.2a49a1e6.woff2",
+      "assets/JetBrainsMono-MediumItalic.c3a55b2e.woff2",
+      "assets/JetBrainsMono-SemiBold.f7d34c1b.woff2",
+      "assets/JetBrainsMono-SemiboldItalic.1e617e20.woff2",
+      "assets/JetBrainsMono-Bold.df3f86c0.woff2",
+      "assets/JetBrainsMono-BoldItalic.3aa30cac.woff2",
+      "assets/JetBrainsMono-ExtraBold.28507c9c.woff2",
+      "assets/JetBrainsMono-ExtraBoldItalic.90f37e08.woff2",
+      "assets/bhan_background.170fb7ba.jpg"
+    ]
+  }
+}
